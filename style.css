@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+	color: #08addc;
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+header{
+	color: #e3e790;
+	font-family: "verdana";
+}
+footer .fa{
+	font-size: 1em;
+}
+ul{
+	list-style-type: none;
+}
+.fa{
+	font-size: 4em;
+	color: #e3e790;
+}
+b{
+	color: #e3e790;
+}
+h3{
+	color: #e3e790;
+}
+h2{
+	color: #e3e790;
+}
+/* Website Links except the nav */
+a:link{
+	color: #e3e790;
+	text-shadow: 2px 2px 2px black;
+}
+a:visited{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+a:hover{
+	color: gray;
+	text-shadow: 2px 2px 2px black;
+}
+a:active{
+	color: gray;
+	text-shadow: 2px 2px 2px black;
+}
+header{
+	text-align: center;
+	background-color: #08addc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.home-photo{
+	max width: 50%;
+}
+.home-hero{
+	background-image:url(images/triangles.png);
+	background-size: cover;
+}
+.home-hero h1{
+	font-family: 'helvetica', bold;
+	color: #e3e790;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align:center;
+	padding: 50px 0;
+	margin: 0;
+}
+/* Navigation */
+.logo{
+		text-align: center;
+}
+nav{
+	background: rgb(133,100,101);
+	background: linear-gradient(90deg, rgba(133,100,101,1) 12%, rgba(33,35,119,1) 65%, rgba(7,14,139,1) 100%);
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #e3e790;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: lightgray;
+}
+nav a:active{
+	color: gray;
+}
+/* Image gallery */
+.gallery .preview {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Main */
+main{
+	margin: 20px auto;
+	padding: 10px;
+	background: linear-gradient(90deg, rgba(133,100,101,1) 12%, rgba(33,35,119,1) 65%, rgba(7,14,139,1) 100%);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Footer */
+footer{
+	border-top: black 3px solid;
+	text-align: center;
+	background: linear-gradient(90deg, rgba(133,100,101,1) 12%, rgba(33,35,119,1) 65%, rgba(7,14,139,1) 100%);
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	color: #e3e790;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
