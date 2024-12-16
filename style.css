@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-	color: #08addc;
+	color: #ffffff;
 	font-family: "Montserrat", sans-serif;
 	margin: 0;
 	border-top: 10px solid black;
@@ -136,6 +136,10 @@ main{
 	background: linear-gradient(90deg, rgba(133,100,101,1) 12%, rgba(33,35,119,1) 65%, rgba(7,14,139,1) 100%);
 	margin-top: 0;
 	margin-bottom: 0;
+	max-width: 1500px;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width:1000px;
 }
 
 /* Footer */
@@ -146,6 +150,19 @@ footer{
 	margin-bottom: 0px;
 	padding-bottom: 10px;
 	color: #e3e790;
+	padding-top: 10px;
+}
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
 }
 
 /*CSS without a media query--applies to all sizes unless overridden*/
