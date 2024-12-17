@@ -136,9 +136,9 @@ main{
 	background: linear-gradient(90deg, rgba(133,100,101,1) 12%, rgba(33,35,119,1) 65%, rgba(7,14,139,1) 100%);
 	margin-top: 0;
 	margin-bottom: 0;
-	max-width: 1500px;
-	padding-left: 100px;
-	padding-right: 100px;
+	max-width: 1600px;
+	padding-left: 110px;
+	padding-right: 110px;
 	min-width:1000px;
 }
 
